@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git credentialsId: '122b4bed-9a7a-42c2-82ba-bbca62094dcd', url: 'https://github.com/PravinBalaji/hello-world.git'
+                git credentialsId: '122b4bed-9a7a-42c2-82ba-bbca62094dcd', url: 'https://github.com/PravinBalaji/Calendar-war.git'
             }
         }
         stage('Maven Build') {
